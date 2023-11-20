@@ -1,0 +1,26 @@
+
+@keyframes twinkling {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+  
+  .twinkling {
+    animation: twinkling 1.5s infinite;
+    background-color: #8cd2c4;
+
+  }
+  .display-4{
+    color: rgb(255, 0, 13);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .lead{
+    color:rgb(5, 4, 5);
+    font-weight:bolder
+  }
+  /* Remove any existing marquee-related styles */
+.marquee {
+    animation: none;
+    white-space: normal;
+    overflow: visible;
+  }

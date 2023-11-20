@@ -1,0 +1,27 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    overflow: hidden; /* Hide the overflow content */
+  }
+  
+  .display-4 {
+    color: #35dc51; 
+    white-space: nowrap; /* Prevent the content from wrapping */
+    overflow: hidden; /* Hide the overflow content */
+    animation: marquee 15s linear infinite; /* Apply marquee animation */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
